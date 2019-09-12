@@ -8,7 +8,7 @@
 .select2-container--default .select2-search__field:-moz-placeholder {color:#999;}
 .select2-container--default .select2-search__field::-moz-placeholder {color:#999;opacity:1;}
 .select2-container--default .select2-search__field:-ms-input-placeholder {color:#999;}
-.select2-container--default .select2-results__option {}
+.select2-container--default .select2-results__option {padding:1rem;}
 .select2-container--default .select2-results__option[role=group] {padding:0;}
 .select2-container--default .select2-results__option[aria-disabled=true] {color:#777777;cursor:not-allowed;}
 .select2-container--default .select2-results__option[aria-selected=true] {background-color:#f7f8fa;color:#74788d;}
