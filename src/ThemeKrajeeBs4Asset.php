@@ -9,7 +9,7 @@
 
 namespace kilyakus\select2;
 
-use kartik\base\AssetBundle;
+use kilyakus\widgets\AssetBundle;
 
 /**
  * Asset bundle for the Krajee theme for [[Select2]] widget.

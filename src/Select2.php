@@ -1,8 +1,8 @@
 <?php
 namespace kilyakus\select2;
 
-use kartik\base\AddonTrait;
-use kartik\base\InputWidget;
+use kilyakus\widgets\AddonTrait;
+use kilyakus\widgets\InputWidget;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\helpers\Html;
