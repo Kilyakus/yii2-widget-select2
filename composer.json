@@ -15,7 +15,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "kartik-v/yii2-krajee-base": ">=1.9"
+        "kilyakus/yii2-widget-base": "*"
     },
     "autoload": {
         "psr-4": {
