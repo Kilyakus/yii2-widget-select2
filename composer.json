@@ -1,0 +1,25 @@
+{
+    "name": "kilyakus/yii2-widget-select2",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kartik Visweswaran",
+            "email": "kartikv2@gmail.com",
+            "homepage": "http://www.krajee.com/"
+        },
+        {
+            "name": "update: Kilyakus",
+            "email": "aleksandr.kilyakov@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "kartik-v/yii2-krajee-base": ">=1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "kilyakus\\select2\\": "src"
+        }
+    }
+}
