@@ -64,7 +64,7 @@ class Select2 extends InputWidget
             $this->theme = $this->isBs4() ? self::THEME_KRAJEE_BS4 : self::THEME_DEFAULT;
         }
         $this->initI18N(__DIR__);
-        $this->pluginOptions['theme'] = $this->theme;
+        $this->pluginOptions['theme'] = $this->theme . ' ' . (!$this->pluginOptions['class'] ? '' : $this->pluginOptions['class']);
         $multiple = ArrayHelper::getValue($this->pluginOptions, 'multiple', false);
         unset($this->pluginOptions['multiple']);
         $multiple = ArrayHelper::getValue($this->options, 'multiple', $multiple);
@@ -232,6 +232,7 @@ class Select2 extends InputWidget
         ]);
         $this->_s2OptionsVar = 's2options_' . hash('crc32', $options);
         $this->options['data-s2-options'] = $this->_s2OptionsVar;
+        $this->options['class'] = 'form-control';
         $view = $this->getView();
         $view->registerJs("var {$this->_s2OptionsVar} = {$options};", View::POS_HEAD);
         if ($this->maintainOrder) {
