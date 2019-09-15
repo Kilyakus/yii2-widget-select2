@@ -17,9 +17,6 @@
         "yiisoft/yii2": "*",
         "kilyakus/yii2-widget-base": "*"
     },
-    "conflict": {
-        "kartik-v/yii2-widget-select2": "*"
-    },
     "autoload": {
         "psr-4": {
             "kilyakus\\select2\\": "src"
