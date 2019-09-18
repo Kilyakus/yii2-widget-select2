@@ -22,5 +22,5 @@
 .select2-search--dropdown.select2-search--hide {display:none;}
 .select2-close-mask {border:0;margin:0;padding:0;display:block;position:fixed;left:0;top:0;min-height:100%;min-width:100%;height:auto;width:auto;opacity:0;z-index:99;background-color:#fff;filter:alpha(opacity=0);}
 .select2-hidden-accessible {border:0!important;clip:rect(0 0 0 0)!important;height:1px!important;margin:-1px!important;overflow:hidden!important;padding:0!important;position:absolute!important;width:1px!important;}
-.select2.form-control {width:auto!important;padding:0px;border:0;}
+.input-group .select2.form-control {width:auto!important;padding:0px;border:0;}
 .input-group .input-group-prepend ~ .select2.form-control .select2-selection {border-top-left-radius:0;border-bottom-left-radius:0;}
