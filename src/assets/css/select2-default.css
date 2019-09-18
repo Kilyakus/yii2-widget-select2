@@ -152,5 +152,5 @@
 
 .form-inline .select2-container--default {display:inline-block;}
 
-.select2-loading {position:relative;background:none;display:block;width:100%;height:calc(1.5em + 1.3rem + 2px);padding:0.65rem 1rem;font-size:1rem;font-weight:400;line-height:1.5;color:#495057;background-color:#fff;background-clip:padding-box;background-position:center left 1rem;border:1px solid #e2e5ec;border-radius:4px;}
+.select2-loading {position:relative;background-image:none!important;display:block;width:100%!important;height:calc(1.5em + 1.3rem + 2px)!important;padding:0.65rem 1rem;font-size:1rem;font-weight:400;line-height:1.5;color:#495057;background-color:#fff!important;/*background-clip:padding-box;background-position:center left 1rem;*/border:1px solid #e2e5ec;border-radius:4px;}
 .select2-loading:before {content:'';position:absolute;box-sizing:border-box;width:16px;height:16px;top:50%;left:1rem;margin-top:-8px;border:2px solid #90efe5;border-top-color:#1bbcab;border-radius:50%;-webkit-animation:kt-spinner .5s linear infinite;animation:kt-spinner .5s linear infinite;}
