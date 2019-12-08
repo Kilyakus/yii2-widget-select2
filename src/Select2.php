@@ -23,6 +23,7 @@ class Select2 extends InputWidget
     const THEME_DEFAULT = 'default';
     const THEME_CLASSIC = 'classic';
     const THEME_BOOTSTRAP = 'bootstrap';
+    const THEME_TRANSPARENT = 'transparent';
     const THEME_KRAJEE = 'krajee';
     const THEME_KRAJEE_BS4 = 'krajee-bs4';
 
@@ -48,6 +49,7 @@ class Select2 extends InputWidget
         self::THEME_DEFAULT,
         self::THEME_CLASSIC,
         self::THEME_BOOTSTRAP,
+        self::THEME_TRANSPARENT,
         self::THEME_KRAJEE,
         self::THEME_KRAJEE_BS4,
     ];
