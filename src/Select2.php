@@ -81,6 +81,10 @@ class Select2 extends InputWidget
         if ($this->hideSearch) {
             $this->pluginOptions['minimumResultsForSearch'] = new JsExpression('Infinity');
         }
+        if(empty($this->pluginOptions['escapeMarkup'])){
+            $this->pluginOptions['escapeMarkup'] = new JsExpression("function(data) { return data; }");
+        }
+
         $this->initPlaceholder();
         if (!isset($this->data)) {
             if (!isset($this->value) && !isset($this->initValueText)) {
