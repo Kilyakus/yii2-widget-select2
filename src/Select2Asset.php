@@ -1,32 +1,15 @@
 <?php
-
-/**
- * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2018
- * @package yii2-widgets
- * @subpackage yii2-widget-select2
- * @version 2.1.4
- */
-
 namespace kilyakus\select2;
 
 use kilyakus\widgets\AssetBundle;
 
-/**
- * Asset bundle for [[Select2]] Widget.
- *
- * @author Kartik Visweswaran <kartikv2@gmail.com>
- * @since 1.0
- */
 class Select2Asset extends AssetBundle
 {
-    /**
-     * @inheritdoc
-     */
     public function init()
     {
         $this->setSourcePath(__DIR__ . '/assets');
-        $this->setupAssets('css', ['css/select2', 'css/select2-addl']);
-        $this->setupAssets('js', ['js/select2.full', 'js/select2-krajee']);
+        $this->setupAssets('css', ['css/widget-select2.min']);
+        $this->setupAssets('js', ['js/select2.min', 'js/select2-krajee']);
         parent::init();
     }
 }

@@ -5,8 +5,8 @@
   .select2-container[dir="rtl"] .select2-selection--single .select2-selection__rendered {padding-right:8px;padding-left:20px;}
   .select2-container .select2-selection--multiple {box-sizing:border-box;cursor:pointer;display:block;min-height:32px;user-select:none;-webkit-user-select:none;}
     .select2-container .select2-selection--multiple .select2-selection__rendered {display:inline-block;overflow:hidden;padding-left:8px;text-overflow:ellipsis;white-space:nowrap;}
-  .select2-container .select2-search--inline {float:left;}
-    .select2-container .select2-search--inline .select2-search__field {box-sizing:border-box;border:none;font-size:100%;margin-top:5px;padding:0;}
+  .select2-container .select2-search--inline {float:left;max-width:100%;}
+    .select2-container .select2-search--inline .select2-search__field {box-sizing:border-box;border:none;font-size:100%;margin-top:5px;padding:0;max-width:100%;}
       .select2-container .select2-search--inline .select2-search__field::-webkit-search-cancel-button {-webkit-appearance:none;}
 .select2-dropdown {background-color:white;border:1px solid #aaa;border-radius:4px;box-sizing:border-box;display:block;position:absolute;left:-100000px;width:100%;z-index:1051;}
 .select2-results {display:block;}
@@ -25,3 +25,29 @@
 .select2-container.form-control {width:auto!important;padding:0px;border:0;}
 .input-group .input-group-prepend ~ .select2.form-control .select2-selection {border-top-left-radius:0;border-bottom-left-radius:0;}
 .input-group .select2-loading {position:absolute;z-index:2;}
+
+/*!
+ * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2018
+ * @version 2.1.4
+ *
+ * Additional CSS for Select2 for extra functionalities added by Krajee
+ *
+ * Author: Kartik Visweswaran
+ * For more JQuery plugins visit http://plugins.krajee.com
+ * For more Yii related demos visit http://demos.krajee.com
+ */
+.s2-togall-select .s2-unselect-label,
+.s2-togall-unselect .s2-select-label {display:none;}
+
+.s2-togall-button {display:inline-block;font-weight:400;color:#337ab7;padding:0.5rem;cursor:pointer;}
+
+.s2-togall-button:focus, .s2-togall-button:hover {color:#23527c;text-decoration:underline;background-color:transparent;}
+
+.s2-togall-select .s2-select-label,
+.s2-togall-unselect .s2-unselect-label {display:inline;}
+
+.s2-select-label, .s2-unselect-label {line-height:1.1;font-size:13px;}
+
+.s2-togall-button .s2-select-label i,
+.s2-togall-button .s2-unselect-label i {margin:auto 0.25rem;
+}
